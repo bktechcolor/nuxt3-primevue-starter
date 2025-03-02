@@ -15,42 +15,42 @@ export function useNavigationMenu() {
         title: 'PrimeVue',
         icon: 'pi pi-prime',
         child: [
-          { href: '/prime/datatable', title: 'DataTable' },
-          { href: '/prime/messages', title: 'Messages' },
+          { href: '/admin/prime/datatable', title: 'DataTable' },
+          { href: '/admin/prime/messages', title: 'Messages' },
         ],
       },
       {
         title: 'Forms',
         icon: 'pi pi-check-square',
         child: [
-          { href: '/form', title: 'Basic' },
-          { href: '/form/toggle', title: 'Edit / View' },
+          { href: '/admin/form', title: 'Basic' },
+          { href: '/admin/form/toggle', title: 'Edit / View' },
         ],
       },
       {
         title: 'UI',
         icon: 'pi pi-image',
         child: [
-          { href: '/ui/uno', title: 'UnoCSS' },
-          { href: '/ui/icons', title: 'Icons' },
-          { href: '/ui/tiptap', title: 'TipTap' },
+          { href: '/admin/ui/uno', title: 'UnoCSS' },
+          { href: '/admin/ui/icons', title: 'Icons' },
+          { href: '/admin/ui/tiptap', title: 'TipTap' },
         ],
       },
       {
         title: 'Data',
         icon: 'pi pi-server',
         child: [
-          { href: '/data/stores', title: 'Stores' },
-          { href: '/data/i18n', title: 'Localization' },
-          { href: '/data/server', title: 'Server' },
+          { href: '/admin/data/stores', title: 'Stores' },
+          { href: '/admin/data/i18n', title: 'Localization' },
+          { href: '/admin/data/server', title: 'Server' },
         ],
       },
       {
         title: 'Content',
         icon: 'pi pi-book',
         child: [
-          { href: '/cms/markdown', title: 'Markdown' },
-          { href: '/cms/component', title: 'Component' },
+          { href: '/admin/cms/markdown', title: 'Markdown' },
+          { href: '/admin/cms/component', title: 'Component' },
         ],
       },
 
