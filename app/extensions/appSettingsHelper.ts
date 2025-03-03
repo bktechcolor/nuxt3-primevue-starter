@@ -19,7 +19,6 @@ export async function fetchAndTransferAppsettings(): Promise<AppSettings> {
   
   const appsettingsUrl = '/appsettings.json';
   const localAppsettingsUrl = '/appsettings.local.json';
-  console.log(appsettingsUrl)
   if (import.meta.env.DEV) {
     try {
       const localSettingsRes = await fetch(localAppsettingsUrl);

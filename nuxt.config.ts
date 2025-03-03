@@ -2,6 +2,9 @@ import Aura from '@primeuix/themes/aura'
 import pkg from './package.json'
 
 export default defineNuxtConfig({
+  head:{
+    script: [{ src: 'utils/appSettingsHelper.ts', type:"module" }],
+  },
   future: {
     compatibilityVersion: 4,
   },
@@ -22,7 +25,6 @@ export default defineNuxtConfig({
       APP_MODE: process.env?.NODE_ENV,
     },
   },
-
   modules: [
     '@pinia/nuxt',
     '@nuxt/content',

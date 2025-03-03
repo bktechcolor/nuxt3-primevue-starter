@@ -45,7 +45,7 @@ import SwiperOption from '@/components/common/SwiperOption.vue';
 import type { ArticleListPageResult, ListArticleListPageResult } from '@/types/articles/articleResult';
 import { useNuxtApp } from '#app';
 import { useArticleStore } from '@/stores/client/articlesStore';
-import { ClientArticlesQuerySchema } from '~/types/articles/articleInput';
+import { ClientArticlesQuerySchema } from '@/types/articles/articleInput';
 library.add(faAnglesLeft, faCalendar, faComment, faEllipsis, faFireFlameCurved);
 const slides = ref(productCategoryImage);
 const { $slugImage } = useNuxtApp()

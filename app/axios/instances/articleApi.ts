@@ -1,6 +1,6 @@
 import type { ErrorMessageApi } from '@/types/errorApi';
 import type { ClientArticlesQuery } from '@/types/articles/articleInput';
-import { convertJSONtoBase64 } from '@/utils/convertJSONtoBase64';
+import { convertJSONtoBase64 } from '@/extensions/convertJSONtoBase64';
 import { 
   ListArticleListPageResultSchema,
   ArticleDetailResultSchema,
@@ -14,8 +14,8 @@ import type {
 } from '@/types/articles/articleResult';
 import type { AxiosRequestConfig } from 'axios';
 
-import { getLocalAppsettings } from '@/utils/appSettingsHelper';
-import { getAxiosError } from '@/utils/axioErrorHelper';
+import { getLocalAppsettings } from '@/extensions/appSettingsHelper';
+import { getAxiosError } from '@/extensions/axioErrorHelper';
 
 import AxiosBase from '../axiosBase';
 import AccessTokenRequestInterceptor from '../interceptors/accessToken-request-interceptor';
